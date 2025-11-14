@@ -1,5 +1,6 @@
 #pragma once
 #include "raylib.h"
+#include <vector>
 
 class Personaje {
 private:
@@ -19,7 +20,7 @@ public:
 	void Unload();
 	void Izq();
 	void Der();
-	void Salto();
+	void Salto(const std::vector<Rectangle>& plataformas);
 
 	Vector2 GetPos() const { return pos; }
 	float GetScale() const { return scala; }

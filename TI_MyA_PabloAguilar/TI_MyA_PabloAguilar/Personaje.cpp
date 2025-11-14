@@ -1,6 +1,7 @@
 #include <iostream>
 #include "raylib.h"
 #include "Personaje.h"
+#include <vector>
 
 Personaje::Personaje(const char* ruta, float x, float y) {
 
@@ -15,6 +16,7 @@ Personaje::Personaje(const char* ruta, float x, float y) {
 }
 
 void Personaje::Draw() {
+	DrawRectangle(pos.x, pos.y,0.0f, textura.height,GREEN);
 	DrawTextureEx(textura, pos, 0.0f, scala, WHITE);
 }
 
@@ -37,21 +39,42 @@ void Personaje::Der() {
 	}
 }
 
-void Personaje::Salto() {
+void Personaje::Salto(const std::vector<Rectangle>& plataformas) {
+
 	if (IsKeyDown(KEY_W) && !es_salto) {
 		es_salto = true;
 		salto1 = s;
 	}
-		if (es_salto) {
-			salto1 += g;
-			pos.y += salto1;
+	if (es_salto) {
+		salto1 += g;
+		pos.y += salto1;
 
-			if (pos.y >= piso) {
-				pos.y = piso;
-				salto1 = 0;
-				es_salto = false;
+	}
+	Rectangle recPer = { pos.x, pos.y, textura.width * scala, textura.height * scala };
+
+	for (const Rectangle& p : plataformas)
+
+		if (CheckCollisionRecs(recPer, p) && salto1 > 0) {
+			DrawText("Pulsa S para Agacharte", 0, 0, 20, WHITE);
+			pos.y = p.y - recPer.height;
+			es_salto = false;
+			salto1 = 0;
+
+			bool caidaizq = recPer.width + recPer.x < p.x;
+			bool caidader = recPer.x > p.width + p.width;
+
+			if (caidaizq || caidader) {
+				es_salto = true;
+				salto1 = 0.1f;
+				if (IsKeyDown(KEY_W)) {
+					es_salto = false;
+				}
 			}
 		}
+
+	if (pos.y >= piso) {
+		pos.y = piso;
+		salto1 = 0;
+		es_salto = false;
 	}
-
-
+}
