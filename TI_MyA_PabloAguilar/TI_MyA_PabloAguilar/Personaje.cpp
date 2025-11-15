@@ -1,7 +1,10 @@
 #include <iostream>
 #include "raylib.h"
 #include "Personaje.h"
+#include "global.h"
 #include <vector>
+
+Vector2 tpose;
 
 Personaje::Personaje(const char* ruta, float x, float y) {
 
@@ -12,10 +15,16 @@ Personaje::Personaje(const char* ruta, float x, float y) {
 	SetTextureFilter(textura, TEXTURE_FILTER_BILINEAR);
 
 	pos = { (x / 2.0f) - (textura.width * scala / 2.0f),y - textura.height * scala };
+	tpose = pos;
 	piso = y - textura.height * scala;
+
 }
 
 void Personaje::Draw() {
+	if (hit) {
+		pos = tpose;
+		hit = false;
+	}
 	DrawRectangle(pos.x, pos.y,0.0f, textura.height,GREEN);
 	DrawTextureEx(textura, pos, 0.0f, scala, WHITE);
 }
@@ -32,8 +41,8 @@ void Personaje::Izq() {
 	}
 }
 void Personaje::Der() {
-	if (pos.x >= 772) {
-		pos.x = 772;
+	if (pos.x >= 672) {
+		pos.x = 672;
 	}else {
 		if (IsKeyDown(KEY_D)) pos.x += 4;
 	}
@@ -55,7 +64,6 @@ void Personaje::Salto(const std::vector<Rectangle>& plataformas) {
 	for (const Rectangle& p : plataformas)
 
 		if (CheckCollisionRecs(recPer, p) && salto1 > 0) {
-			DrawText("Pulsa S para Agacharte", 0, 0, 20, WHITE);
 			pos.y = p.y - recPer.height;
 			es_salto = false;
 			salto1 = 0;
@@ -77,4 +85,19 @@ void Personaje::Salto(const std::vector<Rectangle>& plataformas) {
 		salto1 = 0;
 		es_salto = false;
 	}
+}
+bool Personaje::Ganar() {
+	if(win){
+		pos = tpose;
+		return false;
+	}
+	if (pos.y >= -1) {
+		//pos = tpose;
+		return false;
+	}
+	else {
+		return true;
+	}
+	
+
 }

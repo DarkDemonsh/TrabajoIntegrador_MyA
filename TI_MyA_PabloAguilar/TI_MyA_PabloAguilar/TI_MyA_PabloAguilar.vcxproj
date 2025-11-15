@@ -127,8 +127,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Enemigo.cpp" />
+    <ClCompile Include="global.cpp" />
     <ClCompile Include="Personaje.cpp" />
     <ClCompile Include="TI_MyA_PabloAguilar.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enemigo.h" />
+    <ClInclude Include="global.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

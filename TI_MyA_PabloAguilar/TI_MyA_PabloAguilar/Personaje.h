@@ -14,12 +14,14 @@ private:
 	float piso;
 
 public:
+
 	Personaje(const char* ruta, float x, float y);
 
 	void Draw();
 	void Unload();
 	void Izq();
 	void Der();
+	bool Ganar();
 	void Salto(const std::vector<Rectangle>& plataformas);
 
 	Vector2 GetPos() const { return pos; }
