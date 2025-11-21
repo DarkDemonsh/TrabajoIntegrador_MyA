@@ -19,6 +19,7 @@ public:
 	void Unload();
 	void MovEnemigo();
 	void EnemigoColision(Personaje& p);
+	void ERest();
 
 	Vector2 GetPos() const { return pos; }
 	float GetScale() const { return scala; }

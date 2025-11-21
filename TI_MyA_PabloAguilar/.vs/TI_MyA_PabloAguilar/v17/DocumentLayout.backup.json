@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Enemigo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|solutionrelative:TI_MyA_PabloAguilar\\Enemigo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|solutionrelative:TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Personaje.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|solutionrelative:TI_MyA_PabloAguilar\\Personaje.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MYA_PABLOAGUILAR\\PERSONAJE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|solutionrelative:TI_MYA_PABLOAGUILAR\\PERSONAJE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Enemigo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|solutionrelative:TI_MyA_PabloAguilar\\Enemigo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Enemigo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|solutionrelative:TI_MyA_PabloAguilar\\global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Personaje.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|solutionrelative:TI_MyA_PabloAguilar\\Personaje.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\global.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|solutionrelative:TI_MyA_PabloAguilar\\global.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|E:\\FACULTAD\\TECNICATURA EN DISE\u00D1O Y DESAROLLO DE VIDEOJUEGOS\\CURSANDO\\MODELO Y ALGORITMO DE VIDEOJUEGOS I\\INTEGRADOR\\TRABAJOINTEGRADOR_MYA\\TI_MYA_PABLOAGUILAR\\TI_MYA_PABLOAGUILAR\\PERSONAJE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2D46BDB1-BD1D-4E7E-BEDD-3A1371F11DD8}|TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.vcxproj|solutionrelative:TI_MYA_PABLOAGUILAR\\PERSONAJE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "global.cpp",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\global.cpp",
               "RelativeDocumentMoniker": "TI_MyA_PabloAguilar\\global.cpp",
@@ -50,12 +50,11 @@
               "RelativeToolTip": "TI_MyA_PabloAguilar\\global.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-15T20:30:50.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T20:30:50.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "global.h",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\global.h",
               "RelativeDocumentMoniker": "TI_MyA_PabloAguilar\\global.h",
@@ -63,70 +62,69 @@
               "RelativeToolTip": "TI_MyA_PabloAguilar\\global.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-15T20:31:02.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T20:31:02.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TI_MyA_PabloAguilar.cpp",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.cpp",
               "RelativeDocumentMoniker": "TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.cpp",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.cpp",
               "RelativeToolTip": "TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar.cpp",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJMAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAAALcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-14T18:55:53.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Enemigo.h",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Enemigo.h",
               "RelativeDocumentMoniker": "TI_MyA_PabloAguilar\\Enemigo.h",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Enemigo.h",
               "RelativeToolTip": "TI_MyA_PabloAguilar\\Enemigo.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-15T20:54:44.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Enemigo.cpp",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Enemigo.cpp",
               "RelativeDocumentMoniker": "TI_MyA_PabloAguilar\\Enemigo.cpp",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Enemigo.cpp",
               "RelativeToolTip": "TI_MyA_PabloAguilar\\Enemigo.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-15T20:56:11.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Personaje.cpp",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Personaje.cpp",
               "RelativeDocumentMoniker": "TI_MyA_PabloAguilar\\Personaje.cpp",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Personaje.cpp",
               "RelativeToolTip": "TI_MyA_PabloAguilar\\Personaje.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAiwIYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-14T19:03:51.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Personaje.h",
               "DocumentMoniker": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Personaje.h",
               "RelativeDocumentMoniker": "TI_MyA_PabloAguilar\\Personaje.h",
               "ToolTip": "E:\\Facultad\\Tecnicatura en Dise\u00F1o y desarollo de Videojuegos\\Cursando\\Modelo y algoritmo de videojuegos I\\Integrador\\TrabajoIntegrador_MyA\\TI_MyA_PabloAguilar\\TI_MyA_PabloAguilar\\Personaje.h",
               "RelativeToolTip": "TI_MyA_PabloAguilar\\Personaje.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-15T21:18:25.119Z",
               "EditorCaption": ""

@@ -49,9 +49,15 @@ void Enemigo::EnemigoColision(Personaje& p) {
 	float x = 700;
 	float y = 800;
 	Vector2 piso = { x - (textura.width * scala) / 2.0f,y - (textura.height * scala) / 2.0f }; 
-	if(CheckCollisionCircles(pos, 20.0f, p.GetPos(), 20.f)){
+	if(CheckCollisionCircles(pos, 10.f, p.GetPos(), 10.f)){
 		vida = vida - 1;
 		hit = true;
 	}
 
+}
+
+void Enemigo::ERest() {
+	if (IsKeyPressed(KEY_R)) {
+		pos.x = 0;
+	}
 }

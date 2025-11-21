@@ -22,8 +22,14 @@ int main()
     InitAudioDevice();
     SetTargetFPS(60);
 
-    Personaje jugador("assets/img/p_stand.png", x, y);
-    Enemigo enemi("assets/img/e1.png", x, y, 0, 50); //El ultimo controla la velocidad
+    Texture2D fondo = LoadTexture("assets/img/Escenario.png");
+
+    Personaje jugador("assets/img/p_stand.png", x, y - 8);
+
+    Enemigo enemi("assets/img/e1.png", x, y-30, 0, 50); //El ultimo controla la velocidad
+    Enemigo enemi2("assets/img/e1.png", x, y-300, 0, 60);
+    Enemigo enemi3("assets/img/e1.png", x-100, y -300, 0, 65);
+    Enemigo enemi4("assets/img/e1.png", x, y+500, 0, 70); 
 
     std::vector<Rectangle> plataformas = {
         {x - 550, y - 100, ancho, alto},
@@ -35,7 +41,7 @@ int main()
         {x - 400, y - 500,ancho,alto},
         {x - 300, y -600,ancho,alto},
         {x - 200, y -700,ancho,alto},
-        {x - 100,y - 50,ancho,alto}
+        {x/2-20 ,y-7,ancho,alto}
     };
 
     while (!WindowShouldClose()) {
@@ -137,6 +143,13 @@ int main()
                 DrawRectangle(xg / 2.5, yg / 4, 200, 100, GREEN);
                 DrawText("Jugar", xg / 2.3, yg / 3.5, 50, WHITE);
 
+                DrawRectangle(xg / 3, yg / 2.5, 300, 200, GRAY);
+                DrawText("INSTRUCCIONES", xg / 2.8, 330, 30, WHITE);
+                DrawText("Saltar = Barra Espaciadora", xg / 2.9, 400, 20, WHITE);
+                DrawText("Izquierda = A", xg / 2.9, 430, 20, WHITE);
+                DrawText("Derecha = D", xg / 2.9, 460, 20, WHITE);
+                DrawText("Reiniciar = R", xg / 2.9, 490, 20, WHITE);
+
                 DrawRectangle(xg / 2.5, yg / 1.5, 200, 100, RED);
                 DrawText("Salir", xg / 2.2, yg / 1.4, 50, WHITE);
                 
@@ -147,6 +160,7 @@ int main()
         }
         if (jugar && !jugador.Ganar() && vida >= 1) {
             win = false;
+
             jugador.Salto(plataformas);
             jugador.Der();
             jugador.Izq();
@@ -154,13 +168,34 @@ int main()
             enemi.MovEnemigo();
             enemi.EnemigoColision(jugador);
 
+            enemi2.MovEnemigo();
+            enemi2.EnemigoColision(jugador);
+
+            enemi3.MovEnemigo();
+            enemi3.EnemigoColision(jugador);
+
+            enemi4.MovEnemigo();
+            enemi4.EnemigoColision(jugador);
+
+            jugador.PRest();
+            enemi.ERest();
+            enemi2.ERest();
+            enemi3.ERest();
+            enemi4.ERest();
+
             BeginDrawing();
             ClearBackground(GRAY);
-            DrawText(TextFormat("Vida: %d", vida),0,0, 50, WHITE);
+            DrawTexture(fondo,0,10, WHITE);
+            DrawText(TextFormat("Vida: %d", vida),0,0, 40, WHITE); 
+            DrawText(TextFormat("Posicion_X: %.2f", jugador.GetPos().x), 0, 50, 20, WHITE);
+            DrawText(TextFormat("Posicion_Y: %.2f", jugador.GetPos().y), 0, 70, 20, WHITE);
             for (auto& p : plataformas) {
                 DrawRectangleRec(p, RED);
             }
             enemi.Draw();
+            enemi2.Draw();
+            enemi3.Draw();
+            enemi4.Draw();
             jugador.Draw();
 
             EndDrawing();
@@ -168,6 +203,9 @@ int main()
         
     }
     enemi.Unload();
+    enemi2.Unload();
+    enemi3.Unload();
+    enemi4.Unload();
     jugador.Unload();
     return 0;
 }

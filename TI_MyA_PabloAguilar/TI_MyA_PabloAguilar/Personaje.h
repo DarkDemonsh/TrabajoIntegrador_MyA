@@ -5,6 +5,8 @@
 class Personaje {
 private:
 	Texture2D textura;
+	Texture2D textura2;
+	Texture2D cambio;
 	Vector2 pos;
 	float scala;
 	float salto1 = 0.0f;
@@ -23,6 +25,7 @@ public:
 	void Der();
 	bool Ganar();
 	void Salto(const std::vector<Rectangle>& plataformas);
+	void PRest();
 
 	Vector2 GetPos() const { return pos; }
 	float GetScale() const { return scala; }
